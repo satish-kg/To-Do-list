@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+body{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(206, 186, 133);
+}
+.input-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding: 3%;
+    /* border: 2px solid red; */
+    justify-content: center;
+}
+.card{
+    width: 30%;
+    /* border: 2px solid green; */
+}
+input{
+    width: 80%;
+    height:30px;
+    /* border: 2px solid blue; */
+}
+.submit-button-box{
+    padding-right: 22.3%;
+    padding-top: 0.25%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#submit-button{
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    background-color: rgb(88, 180, 180);
+    padding: 1% 5%;
+    cursor: pointer;
+    box-shadow: 2px;
+}
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+@media screen and (max-width : 600px) {
+    .card{
+        width: 90%;
+    }
+    #submit-button{
+        width: 80%;
+    }
+}
+.output-box{
+    margin-top: 3%;
+    border: 2px solid red;
+}
+#taskbox{   
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 3px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 20%; */
+}
+#delete-button{
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    background-color: rgb(189, 57, 112);
+    padding: 1% 5%;
+    cursor: pointer;
+    box-shadow: 2px;
+    margin-top: 0.75%;
+    margin-bottom: 0.75%;
+    justify-self: right;
+}

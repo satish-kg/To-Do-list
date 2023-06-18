@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <title>webApp_v0.0.1</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="title-box">
+                <h1>To-Do List</h1>
+            </div>
+            <div class="input-box" id="input-box">
+                <div class="card">
+                    <div class="card-title">
+                        <p>Task : </p>
+                    </div>
+                    <div class="card-input">
+                        <input type="text" id="task" required>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <p>Time : </p>
+                    </div>
+                    <div class="card-input">
+                        <input type="datetime-local" id="datetime-lcl" required>
+                    </div>
+                </div>
+            </div>
+            <div class="submit-button-box">
+                <button type="submit" id="submit-button">Add Task</button>
+            </div>
+            <div id="successMessage"></div>
+            <div id="errorMessage"></div>   
+            <div class="output-box" id="output-box">
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
